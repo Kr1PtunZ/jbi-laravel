@@ -1,0 +1,65 @@
+body{
+    margin: 0 auto;
+}
+/*---FONTS---*/
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*---MAIN---*/
+
+main{
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    width: 80%;
+
+}
+
+/*---HEADER---*/
+
+header{
+    font-family: "Roboto", sans-serif;
+    justify-content: space-between;
+    background-color: #9ca3af;
+}
+.header-center{
+    display: flex;
+    justify-content: space-between;
+}
+.phone-icon{
+    width: 15px;
+}
+.header-part{
+    text-decoration: none;
+    color: black;
+    padding-right:10% ;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header-right > p{
+    margin: 0;
+    padding: 0;
+}
